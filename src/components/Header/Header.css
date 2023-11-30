@@ -1,0 +1,31 @@
+.header{
+    background: linear-gradient(#9ea2da, #1822ad);
+    padding: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1{
+    margin: 0;
+    font-weight: bolder;
+}
+
+.header h1 span{
+    color: transparent;
+    background-image: linear-gradient(to right, #fd7373, #ee0e0e);
+    background-clip: text;
+}
+
+.logout-button{
+    background: linear-gradient(#fd7373, #ee0e0e);
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+}
+
